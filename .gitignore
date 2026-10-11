@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets and local config
+.env
+*.key
+*.pem
+
+# Local databases / logs
+*.db
+*.sqlite3
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large or regenerable data (remove these lines if you want to commit them)
+# Keep trained models only if small; otherwise use Git LFS or releases
+# models/*.pkl
+
+.agents/

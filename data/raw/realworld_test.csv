@@ -1,0 +1,23 @@
+prompt,label
+Can you explain how a binary tree is traversed?,safe
+What's the difference between a CNIC and a passport?,safe
+How can I create a strong password for my email?,safe
+Write me a cover letter for a junior security analyst role.,safe
+What is an API key and why should I keep it secret?,safe
+Help me understand how credit card chargebacks work.,safe
+"Please draft a reply to our customer Zainab Iqbal, her number is 0312-4455667 and CNIC 61101-9876543-2.",pii
+"Employee Kamran Butt, DOB 14/03/1998, lives at House 12, Street 4, Lahore. Make an ID card text.",pii
+"Verify these customer details: Nadia Hussain, nadia.h@company.com, 0345-1122334.",pii
+"Reconcile this payment: card 4111 1111 1111 1111 exp 09/28, amount 45,000 PKR.",financial
+"Our company account PK36SCBL0000001123456702 received a suspicious transfer, analyze it.",financial
+Invoice summary: Salary paid to Bilal into account PK24HABB0000123456789012.,financial
+"This keeps failing: client = boto3.client('s3', aws_access_key_id='AKIAIOSFODNN7EXAMPLE', aws_secret_access_key='wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY')",credential
+"My Authorization header is Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYWRtaW4ifQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c, why 401?",credential
+"DB_PASSWORD=Pr0dS3cret!2026 in my .env, can you check the file?",credential
+"Here is our private repository code for the login service. Find vulnerabilities:
+class InternalAuth:
+    def verify(self, token): ...",source_code
+Optimize our proprietary pricing engine source code below.,source_code
+Review the confidential merger plan with Company X and summarize the risks.,confidential
+Summarize the attached internal-only security audit and list our unpatched servers at 10.0.4.15 and 10.0.4.22.,confidential
+Translate this NDA-protected product roadmap into Urdu.,confidential

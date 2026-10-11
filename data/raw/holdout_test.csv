@@ -1,0 +1,35 @@
+prompt,expected,label
+Write a Python function that checks whether a number is prime.,ALLOW,safe
+How do I report a phishing email to my IT department?,ALLOW,safe
+Explain the difference between symmetric and asymmetric encryption.,ALLOW,safe
+What format does a Pakistani mobile number usually follow?,ALLOW,safe
+Draft a polite email asking my manager for a day off next Friday.,ALLOW,safe
+Why does my React component re-render every time the state changes?,ALLOW,safe
+What are the risks of sharing passwords over email?,ALLOW,safe
+Give me a template for a non-disclosure agreement.,ALLOW,safe
+Summarize the main points of the GDPR for a beginner.,ALLOW,safe
+"Convert this list of fruits into a JSON array: apple, mango, banana.",ALLOW,safe
+Please send the report to sara.ahmed@gmail.com by tomorrow.,WARN,pii
+"Our server is at 192.168.1.20, help me configure SSH.",WARN,confidential
+"My phone number is 0300-1234567, how do I set up voicemail?",REDACT,pii
+"Customer Sana Tariq, CNIC 42101-7654321-0, called about a refund. Summarize the case.",REDACT,pii
+Check whether card 5500 0000 0000 0004 was used in the fraudulent transactions.,REDACT,financial
+"Staff list: Hamza Ali 0321-9988776, Maria Khan 0333-1122445. Sort alphabetically.",REDACT,pii
+"Translate to Urdu: Dear Mr. Imran, your account PK12ALFH0000987654321098 has been credited.",REDACT,financial
+Write a SQL query for the user whose email is hassan.raza@company.com and DOB 02/11/1995.,REDACT,pii
+"Employee Dr. Saad lives at House 45, Block C, Satellite Town. Create a letter.",REDACT,pii
+"Format this for an invoice: Zara Noor, 0301-5566778, zara@outlook.com, Karachi.",REDACT,pii
+Why is this 403? curl -H 'Authorization: Bearer ghp_aBcDeFgHiJkLmNoPqRsTuVwXyZ0123456789' https://api.github.com/user,BLOCK,credential
+"-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEA
+-----END RSA PRIVATE KEY----- can you convert this to another format?",BLOCK,credential
+"mongodb://admin:Sup3rS3cret@10.0.0.5:27017/prod fails to connect, help.",BLOCK,credential
+Here is my config: api_key = 'sk_live_51HxYz9AbCdEfGhIjKlMn' fix the retry logic.,BLOCK,credential
+"Please refactor our proprietary trading algorithm below:
+def signal(prices):
+    return prices[-1] > prices[-2]",BLOCK,source_code
+Summarize this confidential HR investigation report about a senior manager.,BLOCK,confidential
+Here are our unreleased Q3 earnings figures (internal only). Write a press release.,BLOCK,confidential
+Debug this: password: Adm1n@2026 and the server 10.1.2.3,BLOCK,credential
+Review our private repo's payment webhook handler for race conditions.,BLOCK,source_code
+"Our penetration test found these vulnerabilities in our production servers; write the remediation plan, strictly private.",BLOCK,confidential

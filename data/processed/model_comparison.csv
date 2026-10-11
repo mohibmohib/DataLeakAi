@@ -1,0 +1,5 @@
+Model,Accuracy,F1 (macro)
+Logistic Regression,0.9948,0.987
+SVM,0.9948,0.987
+Random Forest,0.9948,0.9839
+XGBoost,0.9948,0.9832
