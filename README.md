@@ -120,7 +120,7 @@ Python · scikit-learn · pandas · NumPy · spaCy / NLTK · Plotly · Streamlit
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/<your-username>/DataLeakAI.git
+git clone https://github.com/mohibmohib/DataLeakAi.git
 cd DataLeakAI
 
 python -m venv venv
